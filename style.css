@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(58, 57, 57, 0.817);
+   
+}
+
+.logo .nav-left img{
+    width: 20px;
+    margin-right: 30px;
+    
+}
+
+.nav-right a{
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.header-text{
+    background-color: #fef9f9fe;
+}
+
+.header1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.text1{
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+.text2{
+    margin-left: 2px;
+    text-decoration: none;
+}
+
+.header1 h3{
+    font-size: 15px;
+    padding: 1.5px;
+}
+
+.header2{
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+}
+
+.text3 {
+  margin-left: 2px;
+  text-decoration: none;
+}
+
+
+.col-1{
+    background-image: url('./img/iphone-13-pro.jpg');
+    height: 360px;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row-1{
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+}
+
+.text4{
+    text-decoration: none;
+}
+
+
+.col-2{
+    padding: 0;
+    background-image: url('./img/iphone-13.jpg');
+    height: 360px;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.row-2{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    padding-top: 30px;
+}
+
+.row-2 h1{
+    font-size: 40px;
+
+}
+.row-2 h2{
+    color: pink;
+    font-size: 15px;
+}
+
+.text5{
+    text-decoration: none;
+}
+
+.col-3{
+    padding: 0;
+    background-image: url('./img/watch.jpg');
+    height: 360px;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 260px;
+    
+}
+.row-3{
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+    padding-top: 30px;
+}
+
+.row-3 p{
+    color: red;
+}
+
+.row-3 img{
+    width: 100px;
+}
+
+.row-3 h1{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.text6{
+    text-decoration: none;
+}
+
+.col-4{
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding-top: 210px;
+}
+
+.box-1{
+    padding: 0;
+    background-image: url('./img/fitness.jpg');
+    height: 450px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+}
+
+.box-1 img{
+    padding-top: 30px;
+}
+.box-1 p{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.text7{
+    
+    text-decoration: none;
+}
+
+.box-2{
+    padding: 0;
+    background-image: url('./img/macbook-pro.jpg');
+    height: 450px;
+    background-size: cover;
+    width: 100%;
+    object-fit: contain;
+    text-align: center;
+    background-position: center;
+}
+
+.box-2 h1{
+    padding-top: 30px;
+}
+
+.box-2 p{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.box-3{
+    padding: 0;
+    background-image: url('./img/valentine.jpg');
+    height: 450px;
+    background-size: cover;
+    width: 100%;
+    object-fit: contain;
+    text-align: center;
+    background-position: center;
+}
+
+.box-3 p{
+    padding-top: 30px;
+    color: purple;
+}
+.box-3 h1{
+    color: purple;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.text9{
+    text-decoration: none;
+}
+
+.box-4{
+    padding: 0;
+    background-image: url('./img/arcade.jpg');
+    height: 450px;
+    background-size: cover;
+    width: 100%;
+    object-fit: contain;
+    text-align: center;
+    background-position: center;
+}
+
+.box-4 img{
+    padding-top: 30px;
+}
+
+.box-4 p{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.text10{
+    text-decoration: none;
+}
+
+.box-5{
+    padding: 0;
+    background-image: url('./img/card.jpg');
+    height: 450px;
+    background-size: cover;
+    width: 100%;
+    object-fit: contain;
+    text-align: center;
+    background-position: center;
+}
+
+.box-5 img{
+    padding-top: 30px;
+}
+
+.box-5 h2{
+    padding-top: 10px;
+} 
+
+.box-5 p{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.text11{
+    text-decoration: none;
+}
+
+.box-6{
+    padding: 0;
+    background-image: url('./img/tv-plus.jpg');
+    height: 450px;
+    background-size: cover;
+    width: 100%;
+    object-fit: contain;
+    text-align: center;
+    background-position: center;
+}
+
+.box-6 img{
+    padding-top: 30px;
+}
+
+.box-6 p{
+    color: white;
+    padding-top: 260px;
+}
+.box-6 h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+.box-6 h2{
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+.text12{
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+
+}
